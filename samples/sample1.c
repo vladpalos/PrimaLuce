@@ -11,6 +11,7 @@
 */
 
 #include <pl.h>
+#include <pl_video.h>
 
 int main (int argc, char **argv) {
 	print("Hello world!!!!");
