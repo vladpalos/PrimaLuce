@@ -31,17 +31,17 @@ V = 0.1
 R = $V.0
 
 # == Lua
-LUA = deps/lua-5.2.0
+LUA = deps/lua-5.1.4
 
-LUA_BIN = 	$(LUA)/src/lua $(LUA)/src/luac
+LUA_BIN = 	$(LUA)/bin/lua $(LUA)/bin/luac
 
-LUA_LIB = 	$(LUA)/src/liblua.a
+LUA_LIB = 	$(LUA)/lib/liblua.a
 
-LUA_INC = 	$(LUA)/src/lua.h \
-			$(LUA)/src/luaconf.h \
-			$(LUA)/src/lualib.h \
-			$(LUA)/src/lauxlib.h \
-			$(LUA)/src/lua.hpp
+LUA_INC = 	$(LUA)/src/src/lua.h \
+			$(LUA)/src/src/luaconf.h \
+			$(LUA)/src/src/lualib.h \
+			$(LUA)/src/src/lauxlib.h \
+			$(LUA)/src/src/lua.hpp
 
 # == SDL
 SDL = deps/SDL-1.2.15
