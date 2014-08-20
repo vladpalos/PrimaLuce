@@ -9,4 +9,11 @@
 ===========================================================
 
 
-Software Development Platform for ARM/Android Terminals.
+Software Development Platform for ARM Terminals.
+
+
+Requirements
+
+    - ADB - Android Debug Bridge (from android SDK)
+    - Codesourcery ARM Toolchain (or the toolchain from Android)
+    

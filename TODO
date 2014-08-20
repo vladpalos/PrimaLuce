@@ -1,0 +1,121 @@
+
+# PrimaLuce TODO list
+
+# == DONE =========================================================
+    
+    Build Folder structure
+    Build MakeFile
+    Integrate Lua 5.1.4
+    Integrate SDL 1.2.15
+    Integrate libev 4.11
+    
+
+# == TODO =========================================================
+
+>>> Integrate libeio    
+    Base platform callback mechanism
+    Base platform arhitecture
+
+
+    Main module:
+    
+        stderr, stdin, stdout -> Standard file descriptors
+        init()   -> Initialize any PrimaLuce program. 
+
+    FileSystem module:                
+
+        open()   -> Open file
+        close()  -> Close file
+        flush()  -> Flush data to file        
+        lines()  -> Opens the given file and returns an iterator function that
+                    each time it's called returns a new line from file.
+        read()   -> Reads form file
+        write()  -> Writes to file descriptor
+        seek()   -> Seek's through file      
+
+        chown()  -> Owner
+        chmod()  -> Permissions
+
+        fstat()  -> File info Structure
+
+    Process module:
+    
+        fork()   -> Fork a process
+        exec()   -> Exec a process
+        kill()   -> Send kill signal to a process
+        pid()    -> Get process id
+        umask()  -> File creation mode
+
+        setuid() -> User id
+        getuid() 
+        setgid() -> Group id
+        getgid()        
+
+    Implementing system process - A centralized process where 
+    
+    Internalization system        
+    
+    Integrating image library - SDL_image 
+    Integrating font library - SDL_ttf
+     
+    2DGraphics module:
+      
+        image structure:
+            loadimage()      -> Load image into memory
+            display()        -> Copy image to screen
+            settransparent() -> Set transparency
+      
+        primitives:          -> Draws 2d primitives on screen
+            pixel()                  
+            line()
+            square()
+            circle()                                            
+   
+        animations:
+            animation structure                
+            show()
+            hide()
+            move()
+            transform()
+            scale()
+            
+            tracepath()
+            
+        
+    UserInterface module:
+        screen              -> Screen component
+    
+        surface()           -> Every component is a surface structure
+        2dsurface()         -> Custom surface for low-level drawing/animation
+        
+        button()          
+        list()            
+        popup()
+        loadbar()
+        input()
+        taskbar()
+        window()
+        web()   
+                
+    Sound system module:   
+        init()
+        load()
+        play()
+        pause()
+        stop()
+        volup()
+        voldown()            
+
+    Network module:
+        init()
+        getHTTP()                -> get HTTP request           
+            
+    3D Games engine module :
+         Integrating Luxinia ?
+
+    Bluetooth
+    
+    GPS
+
+    ...
+

@@ -1,0 +1,151 @@
+libpng15_la-png.lo: png.c pngpriv.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/stdlib.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/features.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/predefs.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/cdefs.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/wordsize.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/gnu/stubs.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stddef.h \
+ png.h pnglibconf.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/setjmp.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/setjmp.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sigset.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/time.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/time.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/types.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/typesizes.h \
+ pngconf.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include-fixed/limits.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include-fixed/syslimits.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/limits.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/posix1_lim.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/local_lim.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/linux/limits.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/string.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/string.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/string2.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/stdio.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/libio.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/_G_config.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/wchar.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stdarg.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio_lim.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sys_errlist.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio.h \
+ pnginfo.h pngstruct.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/../../../../arm-none-linux-gnueabi/include/zlib.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/../../../../arm-none-linux-gnueabi/include/zconf.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/types.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/unistd.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/posix_opt.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/confname.h \
+ config.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/float.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/math.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/huge_val.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/mathdef.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/mathcalls.h \
+ /opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/mathinline.h \
+ pngdebug.h
+
+pngpriv.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/stdlib.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/features.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/predefs.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/cdefs.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/wordsize.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/gnu/stubs.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stddef.h:
+
+png.h:
+
+pnglibconf.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/setjmp.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/setjmp.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sigset.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/time.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/time.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/types.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/typesizes.h:
+
+pngconf.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include-fixed/limits.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include-fixed/syslimits.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/limits.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/posix1_lim.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/local_lim.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/linux/limits.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/string.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/string.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/string2.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/stdio.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/libio.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/_G_config.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/wchar.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stdarg.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio_lim.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sys_errlist.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio.h:
+
+pnginfo.h:
+
+pngstruct.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/../../../../arm-none-linux-gnueabi/include/zlib.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/../../../../arm-none-linux-gnueabi/include/zconf.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/types.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/unistd.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/posix_opt.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/confname.h:
+
+config.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/float.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/math.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/huge_val.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/mathdef.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/mathcalls.h:
+
+/opt/CodeSourcery/Sourcery_G++_Lite_Linux/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/mathinline.h:
+
+pngdebug.h:

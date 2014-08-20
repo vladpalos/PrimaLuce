@@ -1,13 +1,13 @@
 # Makefile to build the SDL library
 
 INCLUDE = -I./include
-CFLAGS  = -g -O2 $(INCLUDE) -static
+CFLAGS = -g -O2 $(INCLUDE) -static
 CC = arm-none-linux-gnueabi-gcc
 AR = arm-none-linux-gnueabi-ar
 RANLIB = arm-none-linux-gnueabi-ranlib
 
 CONFIG_H = include/SDL_config.h
-TARGET  = libSDL.a
+TARGET = libSDL.a
 SOURCES = \
 	src/*.c \
 	src/audio/*.c \
@@ -36,9 +36,6 @@ all: $(TARGET)
 $(TARGET): $(CONFIG_H) $(OBJECTS)
 	$(AR) crv $@ $^
 	$(RANLIB) $@
-
-#$(CONFIG_H):
-#	cp $(CONFIG_H).default $(CONFIG_H)
 
 clean:
 	rm -f $(TARGET) $(OBJECTS)

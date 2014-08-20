@@ -1,0 +1,18 @@
+# ------------------------------------------------------------------------
+#   Commands for Building libev 
+# ------------------------------------------------------------------------
+
+./configure  --prefix=/home/vladpalos/libev/ CC=arm-none-linux-gnueabi-gcc CPP='arm-none-linux-gnueabi-gcc -E' -host=arm-none-linux-gnueabi
+
+
+# ------------------------------------------------------------------------
+#   Commands for Building SDL
+# ------------------------------------------------------------------------
+./configure --host=arm-none-linux-gnueabi --prefix=/home/vladpalos/Development/PrimaLuce/deps/SDL-1.2.15/build --disable-pulse --withouth-x
+
+# ------------------------------------------------------------------------
+#   Commands for Building SDL_ttf
+# ------------------------------------------------------------------------
+./configure --host=arm-none-linux-gnueabi  --with-sdl-prefix=/home/vladpalos/Development/PrimaLuce/deps/SDL-1.2.15/build --with-freetype-prefix=/home/vladpalos/Development/PrimaLuce/deps/freetype-2.4.9/build --prefix=/home/vladpalos/Development/PrimaLuce/deps/SDL_ttf-2.0.11/build LIBS="-lfreetype -lSDL"
+
+

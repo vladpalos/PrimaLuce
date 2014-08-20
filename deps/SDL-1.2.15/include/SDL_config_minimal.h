@@ -1,6 +1,6 @@
 /*
     SDL - Simple DirectMedia Layer
-    Copyright (C) 1997-2012 Sam Lantinga
+    Copyright (C) 1997-2006 Sam Lantinga
 
     This library is free software; you can redistribute it and/or
     modify it under the terms of the GNU Lesser General Public
@@ -53,28 +53,5 @@ typedef unsigned long uintptr_t;
 #define SDL_VIDEO_DRIVER_FBCON 1
 
 #define HAVE_STDIO_H 1
-
-/*
-     Enable the dummy audio driver (src/audio/dummy/\*.c) 
-    #define SDL_AUDIO_DRIVER_DUMMY	1
-
-     Enable the stub cdrom driver (src/cdrom/dummy/\*.c) 
-    #define SDL_CDROM_DISABLED	1
-
-     Enable the stub joystick driver (src/joystick/dummy/\*.c) 
-    #define SDL_JOYSTICK_DISABLED	1
-
-     Enable the stub shared object loader (src/loadso/dummy/\*.c) 
-    #define SDL_LOADSO_DISABLED	1
-
-     Enable the stub thread support (src/thread/generic/\*.c) 
-    #define SDL_THREADS_DISABLED	1
-
-     Enable the stub timer support (src/timer/dummy/\*.c) 
-    #define SDL_TIMERS_DISABLED	1
-
-     Enable the dummy video driver (src/video/dummy/\*.c) 
-    #define SDL_VIDEO_DRIVER_DUMMY	1
-*/
 
 #endif /* _SDL_config_minimal_h */
