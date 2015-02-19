@@ -2,11 +2,11 @@
 
 # PrimaLuce 0.1
 
-A LUA/C event-based development framework on top of the Android Kernel. 
+A Lua/C event-based development framework on top of the Android Kernel. 
 
 The system is compiled with all the necessary libraries (i.e. glibc, SDL, libeio, libev, libpng etc.) in such a way that written applications make no use of the Android (Java/NDK) system.
 
-The idea (in the end) is to build a full Operating System in LUA/C. This way the apps can be written mostly in LUA and the performance/critical sections can be written in native C/C++.
+The idea (in the end) is to build a full Operating System in Lua/C. This way the apps can be written mostly in Lua and the performance/critical sections can be written in native C/C++.
 
 ## Demo
 [![ScreenShot](http://img.youtube.com/vi/IPz7lHmYF-k/0.jpg)](https://www.youtube.com/watch?v=IPz7lHmYF-k&feature=em-upload_owner)
