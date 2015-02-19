@@ -19,7 +19,7 @@ The system runs on the Linux/Android Kernel and is compiled with all the necessa
 
 ## Run
  1. Install adb and run it with `emulator -avd GalaxyS`.
- 2. Run `go.sh`
+ 2. Run `./go.sh`
 
 ## Enjoy 
 
