@@ -7,6 +7,7 @@ A LUA/C event-based development framework on top of the Android Kernel for mobil
 The system is compiled with all the necessary libraries (i.e. glibc, SDL, libeio, libev, libpng etc.) in such a way that written applications make no use of the Android (Java/NDK) system.
 
 The idea in the end is to build a full Operating System in LUA/C. 
+
 This way the apps could be written mostly in LUA and the performance/critical section could be written in native C/C++.
 
 ## Demo
