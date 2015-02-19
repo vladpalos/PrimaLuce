@@ -21,4 +21,4 @@ Software Development Platform for ARM Terminals.
     
 ## Enjoy 
 
-Copyright (C)2012 Vlad Paloş (vlad@palos.ro).  
+2014 Vlad Paloş (vlad@palos.ro).  
