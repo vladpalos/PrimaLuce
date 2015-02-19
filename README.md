@@ -14,15 +14,13 @@ The system runs on the Linux/Android Kernel and is compiled with all the necessa
 
 
 ## Requirements
-
-    - ADB - Android Debug Bridge (from android SDK)
-    - Codesourcery ARM Toolchain (or the toolchain from Android)
+ 1. ADB - Android Debug Bridge (from android SDK)
+ 2. Codesourcery ARM Toolchain (or the toolchain from Android)
 
 ## Run
+ 1. Install adb and run it with `emulator -avd GalaxyS`.
+ 2. Run `go.sh`
 
-    1. Install adb and run it with `emulator -avd GalaxyS`.
-    2. Run `go.sh`
-    
 ## Enjoy 
 
 2014 Vlad Paloş (vlad@palos.ro).  
