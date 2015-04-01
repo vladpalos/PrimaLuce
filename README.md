@@ -21,7 +21,7 @@ The idea (in the end) is to build a full Operating System in Lua/C. This way the
  2. Run `./go.sh`
 
 ## Physical devices
- You can also run this on a physical device. In order to do that you must connect the device to adb. This was tested on a GalaxyS GT-I9000 device.
+ In order to run this on a physical device you must connect the device to adb. This was tested on a GalaxyS GT-I9000 device.
  
 ## Enjoy 
 
