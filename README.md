@@ -20,6 +20,9 @@ The idea (in the end) is to build a full Operating System in Lua/C. This way the
  1. Install adb and run it with `emulator -avd GalaxyS`.
  2. Run `./go.sh`
 
+## Physical devices
+ You can also run this on a physical device. In order to do that you must connect the device to adb. This was tested on a GalaxyS GT-I9000 device.
+ 
 ## Enjoy 
 
-2014 Vlad Paloş (vlad@palos.ro).  
+2015 Vlad Paloş (vlad@palos.ro).  
