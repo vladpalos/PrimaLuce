@@ -25,4 +25,4 @@ The idea (in the end) is to build a full Operating System in Lua/C. This way the
  
 ## Enjoy 
 
-2015 Vlad Paloş (vlad@palos.ro).  
+2015 Vlad Paloş (vladpalos@gmail.com).  
