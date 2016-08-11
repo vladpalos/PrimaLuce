@@ -14,7 +14,7 @@ The idea (in the end) is to build a full Operating System in Lua/C. This way the
 
 ## Requirements
  1. ADB - Android Debug Bridge (from android SDK)
- 2. Codesourcery ARM Toolchain (or the toolchain from Android)
+ 2. Codesourcery ARM Toolchain (or the toolchain from Android SDK)
 
 ## Run
  1. Install adb and run it with `emulator -avd GalaxyS`.
